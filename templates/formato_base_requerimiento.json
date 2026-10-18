@@ -1,0 +1,66 @@
+{
+  "_instrucciones": "Formato Base para generar un Requerimiento en E-SGSI (FO-PO-002). Los campos 'codigo_requerimiento' e 'id_prueba' se calculan automáticamente leyendo el Excel Maestro si se dejan en 'AUTO'.",
+  "sprint": 8,
+  "fecha_solicitada": "18-10-2026",
+  "titulo": "Título corto y descriptivo del requerimiento",
+  "tipo": "MEJORA",
+  "_opciones_tipo": [
+    "BUG",
+    "MEJORA",
+    "HISTORIA DE USUARIO",
+    "NUEVA CARACTERÍSTICA",
+    "DEUDA TÉCNICA",
+    "TAREA",
+    "VULNERABILIDADES",
+    "ÉPICA"
+  ],
+  "codigo_requerimiento": "AUTO",
+  "prioridad": "Alta",
+  "_opciones_prioridad": [
+    "Crítica",
+    "Alta",
+    "Media",
+    "Baja"
+  ],
+  "solicitante": "Product Owner",
+  "_opciones_solicitante": [
+    "Product Owner",
+    "CISO",
+    "CEO",
+    "CTO",
+    "COO",
+    "Cliente",
+    "Desarrollador",
+    "Cybersecurity Architect"
+  ],
+  "estado": "Solicitado",
+  "contexto_problema": "Descripción del problema actual o necesidad detectada que origina el requerimiento.",
+  "definicion": {
+    "rol": "Administrador",
+    "quiero": "realizar una acción específica en el sistema",
+    "para": "garantizar un beneficio de negocio o control del SGSI (Confidencialidad, Integridad, Disponibilidad, Trazabilidad, No Repudio)"
+  },
+  "matriz_impacto": {
+    "modulo_principal": "/esgsi/doc-flow/edition/",
+    "modulos_secundarios": [
+      "/esgsi/doc-flow/my-documents/",
+      "api-sgsi"
+    ],
+    "modificacion_aplicada_a": "Administrador, Editor asignado",
+    "aplica_diseno_proceso": "No"
+  },
+  "especificacion_requerimiento": "Descripción general y detallada de cómo debe funcionar el requerimiento o cómo se resuelve el bug.",
+  "placeholders_imagenes": [
+    "Insertar aquí captura de pantalla de referencia o diagrama de flujo"
+  ],
+  "notas_adicionales": "",
+  "escenarios_qa": [
+    {
+      "id_prueba": "AUTO",
+      "dado": "Que el usuario con rol [Rol] se encuentra en [Módulo]",
+      "cuando": "Realiza la acción [Acción]",
+      "entonces": "El sistema responde mostrando/ejecutando [Resultado esperado verificable]",
+      "responsable_qa": "QA"
+    }
+  ]
+}

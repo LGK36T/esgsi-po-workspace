@@ -1,0 +1,50 @@
+{
+  "folio": "FO-PO-002",
+  "area": "Desarrollo",
+  "clasificacion": "Uso Interno",
+  "sprint": 8,
+  "fecha_solicitada": "18-10-2026",
+  "autor": "Sebastián Ohberg",
+  "requerimientos": [
+    {
+      "sprint": 8,
+      "fecha_solicitada": "18-10-2026",
+      "titulo": "Título corto y descriptivo del requerimiento",
+      "tipo": "MEJORA",
+      "codigo_requerimiento": "ME-018",
+      "prioridad": "Alta",
+      "solicitante": "Product Owner",
+      "estado": "Solicitado",
+      "contexto_problema": "Descripción del problema actual o necesidad detectada que origina el requerimiento.",
+      "definicion": {
+        "rol": "Administrador",
+        "quiero": "realizar una acción específica en el sistema",
+        "para": "garantizar un beneficio de negocio o control del SGSI (Confidencialidad, Integridad, Disponibilidad, Trazabilidad, No Repudio)"
+      },
+      "matriz_impacto": {
+        "modulo_principal": "/esgsi/doc-flow/edition/",
+        "modulos_secundarios": [
+          "/esgsi/doc-flow/my-documents/",
+          "api-sgsi"
+        ],
+        "modificacion_aplicada_a": "Administrador, Editor asignado",
+        "aplica_diseno_proceso": "No"
+      },
+      "especificacion_requerimiento": "Descripción general y detallada de cómo debe funcionar el requerimiento o cómo se resuelve el bug.",
+      "placeholders_imagenes": [
+        "Insertar aquí captura de pantalla de referencia o diagrama de flujo"
+      ],
+      "notas_adicionales": "",
+      "escenarios_qa": [
+        {
+          "id_prueba": "QA-087",
+          "dado": "Que el usuario con rol [Rol] se encuentra en [Módulo]",
+          "cuando": "Realiza la acción [Acción]",
+          "entonces": "El sistema responde mostrando/ejecutando [Resultado esperado verificable]",
+          "responsable_qa": "QA",
+          "id_requerimiento_tecnico": "ME-018"
+        }
+      ]
+    }
+  ]
+}

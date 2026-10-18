@@ -1,0 +1,138 @@
+{
+  "paths": {
+    "default_excel": "Requerimientos_y_QA_Normalizados_E-SGSI_Completo.xlsx",
+    "default_sprints_dir": "sprints",
+    "default_output_docx": "FO-PO-002_Toma_Requerimientos.docx"
+  },
+  "excel_settings": {
+    "sheet_requirements": "1_Requerimientos_Codificados",
+    "sheet_qa_traceability": "2_Trazabilidad_QA_Completa",
+    "excluded_sheet_keywords": [
+      "Backlog_Sin_Codigo",
+      "Hallazgos"
+    ]
+  },
+  "prefixes": {
+    "BUG": "BUG",
+    "MEJORA": "ME",
+    "ME": "ME",
+    "HISTORIA DE USUARIO": "HU",
+    "HU": "HU",
+    "NUEVA CARACTERÍSTICA": "NC",
+    "NUEVA CARACTERISTICA": "NC",
+    "NC": "NC",
+    "DEUDA TÉCNICA": "TD",
+    "DEUDA TECNICA": "TD",
+    "TD": "TD",
+    "TAREA": "TASK",
+    "TASK": "TASK",
+    "VULNERABILIDADES": "VULN",
+    "VULNERABILIDAD": "VULN",
+    "VULN": "VULN",
+    "ÉPICA": "EPIC",
+    "EPICA": "EPIC",
+    "EPIC": "EPIC",
+    "LEGACY-HOTFIX": "LEGACY-HOTFIX"
+  },
+  "document_defaults": {
+    "folio": "FO-PO-002",
+    "area": "Desarrollo",
+    "clasificacion": "Uso Interno",
+    "autor_default": "Sebastián Ohberg",
+    "responsable_qa_default": "QA",
+    "aplica_diseno_proceso_default": "No",
+    "estado_default": "Solicitado",
+    "prioridad_default": "Alta"
+  },
+  "catalogs": {
+    "tipos_permitidos": [
+      "BUG",
+      "MEJORA",
+      "HISTORIA DE USUARIO",
+      "NUEVA CARACTERÍSTICA",
+      "DEUDA TÉCNICA",
+      "TAREA",
+      "VULNERABILIDADES",
+      "ÉPICA"
+    ],
+    "prioridades": [
+      "Crítica",
+      "Alta",
+      "Media",
+      "Baja"
+    ],
+    "solicitantes": [
+      "Product Owner",
+      "CISO",
+      "CEO",
+      "CTO",
+      "COO",
+      "Cliente",
+      "Desarrollador",
+      "Cybersecurity Architect"
+    ],
+    "modulos_comunes": [
+      "/esgsi/doc-flow/create/",
+      "/esgsi/doc-flow/edition/",
+      "/esgsi/doc-flow/inbox/",
+      "/esgsi/doc-flow/my-documents/",
+      "/esgsi/doc-flow/current-documents/",
+      "/esgsi/governance/persons/",
+      "/esgsi/governance/positions/",
+      "/esgsi/governance/chart/",
+      "/esgsi/asset-inventory/",
+      "/esgsi/asset-inventory/groups/",
+      "/esgsi/risk-management/risk-matrix/",
+      "/esgsi/risk-management/identifying-threats-vulnerabilities/",
+      "/esgsi/risk-treatment/",
+      "/esgsi/soa-controls/applicability-statement/",
+      "/esgsi/planning-resources/",
+      "/esgsi/profile/",
+      "/esgsi/dashboard/",
+      "Polaris",
+      "api-sgsi",
+      "api-email",
+      "api-pdf",
+      "API-AUTH"
+    ]
+  },
+  "word_styles": {
+    "font_family": "Calibri",
+    "font_size_normal": 11,
+    "font_size_table": 10,
+    "font_size_placeholder": 9.5,
+    "colors_hex": {
+      "header_bg_dark": "1F4E79",
+      "header_bg_light": "E8EEF5",
+      "cell_bg_neutral": "F2F4F8",
+      "placeholder_bg": "F9FAFB"
+    },
+    "colors_rgb": {
+      "title_primary": [
+        23,
+        54,
+        93
+      ],
+      "title_secondary": [
+        31,
+        78,
+        121
+      ],
+      "code_highlight": [
+        192,
+        0,
+        0
+      ],
+      "header_text_white": [
+        255,
+        255,
+        255
+      ],
+      "placeholder_text": [
+        100,
+        116,
+        139
+      ]
+    }
+  }
+}

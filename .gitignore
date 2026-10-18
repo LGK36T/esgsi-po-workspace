@@ -1,0 +1,23 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Office temporary lock files
+~$*.xlsx
+~$*.docx
+
+# Environment
+.env
+.venv
+venv/
+ENV/
+
+# Temporary test outputs
+tmp/
+*.tmp
