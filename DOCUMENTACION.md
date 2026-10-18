@@ -32,9 +32,9 @@ esgsi-po-workspace/
 ├── templates/
 │   └── formato_base_requerimiento.json                  # Esquema modelo para especificación de requerimientos
 ├── sprints/
-│   └── sprint_8.json                                    # Acumulador de datos del sprint en formato JSON
-└── sprint_8/
-    └── sprint_8.json                                    # Directorio de trabajo y artefactos del Sprint actual
+│   └── sprint_8/
+│       ├── sprint_8.json                                # Acumulador de datos del sprint actual
+│       └── FO-PO-002_Sprint_8.docx                      # Minuta Word compilada del sprint
 ```
 
 ---
@@ -156,9 +156,9 @@ El ciclo para incorporar nuevos requerimientos se ejecuta en cuatro fases:
           │
 [2. Ficha JSON]            -->  Completar templates/formato_base_requerimiento.json con "codigo_requerimiento": "AUTO"
           │
-[3. Registro y Sincronía]  -->  python3 scripts/req_drafter.py --input req.json --sprint-file sprint_8/sprint_8.json
+[3. Registro y Sincronía]  -->  python3 scripts/req_drafter.py --input req.json --sprint-file sprints/sprint_8/sprint_8.json
           │
-[4. Compilación Word]      -->  python3 scripts/word_builder.py --sprint-file sprint_8/sprint_8.json --output sprint_8/FO-PO-002_Sprint_8.docx
+[4. Compilación Word]      -->  python3 scripts/word_builder.py --sprint-file sprints/sprint_8/sprint_8.json --output sprints/sprint_8/FO-PO-002_Sprint_8.docx
 ```
 
 ---

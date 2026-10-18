@@ -14,5 +14,5 @@ description: Toolkit de Toma de Requerimientos y Matriz de Trazabilidad (FO-PO-0
 
 ## Comandos Principales
 - Ver estado correlativos: `python3 scripts/excel_manager.py --status`
-- Redactar y registrar requerimiento: `python3 scripts/req_drafter.py --input req.json --sprint-file sprints/sprint_8.json`
-- Generar Word editable: `python3 scripts/word_builder.py --sprint-file sprints/sprint_8.json --output FO-PO-002_Sprint_8.docx`
+- Redactar y registrar requerimiento: `python3 scripts/req_drafter.py --input req.json --sprint-file sprints/sprint_8/sprint_8.json`
+- Generar Word editable: `python3 scripts/word_builder.py --sprint-file sprints/sprint_8/sprint_8.json --output sprints/sprint_8/FO-PO-002_Sprint_8.docx`

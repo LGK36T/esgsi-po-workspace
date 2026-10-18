@@ -16,8 +16,8 @@ Herramientas y scripts de automatización para la toma de requerimientos de soft
   - `word_builder.py`: Compilador de documentos Word (.docx) formato FO-PO-002.
 - `templates/`:
   - `formato_base_requerimiento.json`: Plantilla JSON modelo para redactar requerimientos.
-- `sprints/`: Archivos acumuladores JSON de sprints anteriores.
-- `sprint_8/`: Directorio de trabajo y entregables del Sprint 8 actual.
+- `sprints/`: Directorio de sprints del proyecto.
+  - `sprint_8/`: Directorio de trabajo y entregables del Sprint 8 actual (`sprint_8.json` y documentos compilados).
 
 ---
 
@@ -40,12 +40,12 @@ python3 scripts/excel_manager.py --status
 
 ### 2. Procesar y registrar un nuevo requerimiento
 ```bash
-python3 scripts/req_drafter.py --input templates/formato_base_requerimiento.json --sprint-file sprint_8/sprint_8.json
+python3 scripts/req_drafter.py --input templates/formato_base_requerimiento.json --sprint-file sprints/sprint_8/sprint_8.json
 ```
 
 ### 3. Generar el documento Word (.docx) del Sprint
 ```bash
-python3 scripts/word_builder.py --sprint-file sprint_8/sprint_8.json --output sprint_8/FO-PO-002_Sprint_8.docx
+python3 scripts/word_builder.py --sprint-file sprints/sprint_8/sprint_8.json --output sprints/sprint_8/FO-PO-002_Sprint_8.docx
 ```
 
 Para más detalles sobre la arquitectura y la lógica interna de los scripts, consultar [`DOCUMENTACION.md`](DOCUMENTACION.md).
